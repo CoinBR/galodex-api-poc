@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "galos",
+  "info": {
+    "name": "galo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "forca": {
+      "type": "integer",
+      "default": "1"
+    },
+    "agilidade": {
+      "type": "integer",
+      "default": "1"
+    },
+    "resistencia": {
+      "type": "integer",
+      "default": "1"
+    },
+    "elemento": {
+      "default": "Terra",
+      "enum": [
+        "Terra",
+        "Ar",
+        "Fogo",
+        "Agua",
+        "Luz",
+        "Trevas"
+      ],
+      "type": "enumeration"
+    }
+  }
+}
