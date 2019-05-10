@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/macacos",
+      "handler": "Macaco.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/macacos/count",
+      "handler": "Macaco.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/macacos/:id",
+      "handler": "Macaco.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/macacos",
+      "handler": "Macaco.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/macacos/:id",
+      "handler": "Macaco.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/macacos/:id",
+      "handler": "Macaco.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

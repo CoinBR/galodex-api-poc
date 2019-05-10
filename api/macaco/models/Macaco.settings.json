@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "macacos",
+  "info": {
+    "name": "macaco",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "idade": {
+      "type": "integer",
+      "default": "1"
+    },
+    "email": {
+      "default": "macaco@hotmail.com",
+      "type": "email"
+    }
+  }
+}
