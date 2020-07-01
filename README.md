@@ -1,4 +1,4 @@
-I guess it was a in class assignment.
+I guess it was a in-class assignment.
 
 We had to try one technology, and convince fellow students to use it.
 If I'm not wong, I implemented something very simple in the strapi framework, and presented the framework to others.
